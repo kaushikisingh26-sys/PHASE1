@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Feedback Form</h1>
+<nav>
+    <ul>
+        <li> 
+             <a href="home.html">Home</a>
+        <li><a href="profile.html">Profile</a><br></li>
+            <li><a href="courses.html">Course</a><br>
+            <li><a href="feedback.html">Feedback</a><br>         
+            <li><a href="grades.html">Grades</a><br></li>
+          <li><a href="contact.html">Contact</a><br></li>
+   </ul>
+  </nav>
+</header>
+<hr>
+<main>
+</body>
+<h2>Share Your Feedback</h2>
+<p> Please fill in the form below to share your thoughts about the courses and the portal.</p>
+
+<Form>
+    <!--Name Field-->
+    <label for="name">Name:</label><br>
+    <input type="text"id="name"name="name"><br><br>
+    
+    <!--Email Field-->
+    <label for="email">Email:</label><br>
+    <input type="email"id="email"name="email"><br><br>
+
+    <!--Phone Field-->
+    <label for="phone">Phone:</label><br>
+    <input type="tel"id="phone"name="phone"><br><br>
+
+    <!--Gender Field-->
+    <label><strong>Gender:</strong></label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+    
+    <!-- Select Course Field -->
+        <label for="course">Select Course:</label><br>
+        <select id="course" name="course">
+            <option value="html">HTML & Web Fundamentals</option>
+            <option value="css">CSS & Responsive Design</option>
+            <option value="dbms">Database Management Systems</option>
+            <option value="se">Software Engineering</option>
+            <option value="js">JavaScript Programming</option>
+            <option value="dsa">Data Structures & Algorithms</option></select><br><br>
+    <!-- Your Feedback Field -->
+        <label for="feedback">Your Feedback:</label><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="40"></textarea><br><br>
+
+        <!-- Rate the Portal Field -->
+        <label for="rating">Rate the Portal:</label><br>
+        <select id="rating" name="rating">
+            <option value="5">5 - Excellent</option>
+            <option value="4">4 - Very Good</option>
+            <option value="3">3 - Good</option>
+            <option value="2">2 - Average</option>
+            <option value="1">1 - Poor</option>
+        </select><br><br>
+
+        <!-- Checkbox Field -->
+        <input type="checkbox" id="newsletter" name="newsletter">
+        <label for="newsletter">Subscribe to newsletter and updates</label><br><br>
+
+        <!-- Submit and Reset Buttons -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+    <hr>
+
+    <p>© 2026 Student Portal. All rights reserved.</p>
+
+</body>
+</html>
+
+    
+        
+           
